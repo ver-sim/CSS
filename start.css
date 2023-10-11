@@ -1,0 +1,42 @@
+body {
+    display: grid;
+    grid-template: 
+    "header header header" 1fr
+    "main-left main main-right" 2fr 
+    "footer footer main-right" 1fr 
+    / 1fr 1fr 2fr;
+
+}
+
+#green {
+    grid-area: header;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#yellow {
+    grid-area: main-left;
+    margin-left: 0;
+  
+}
+
+#red {
+    grid-area: main;
+}
+
+#blue {
+    grid-area: main-right;
+    margin-right: 0;
+}
+
+#orange {
+    grid-area: footer;
+    margin-left: 0;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(2, 125px);
+    grid-template-rows: auto;
+}
