@@ -1,0 +1,36 @@
+article {
+    background-color: bisque;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 200px  200px;
+}
+
+header {
+    background-color: gray;
+    color: white;
+    padding: auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+
+}
+
+h1 {
+    padding: 50%;
+}
+
+section {
+    border-top: 1px solid black;
+    padding: 10px;
+    overflow: hidden;
+}
+
+footer {
+    border-top: 1px solid black;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    overflow: hidden;
+}
