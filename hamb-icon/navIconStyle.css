@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: rgb(30, 27, 27);
+    opacity: 0.99;
+    height: 50px;
+    width: 100%;
+}
+
+.linkNav{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 15px;
+}
+
+.linkHome {
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 15px;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(142, 142, 142);
+    padding-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#dropdown {
+    background-color: inherit;
+    color: rgb(142, 142, 142);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    font-size: inherit;
+    border: none;
+}
+
+.disabled {
+    text-decoration: none;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10px;
+    padding-right: 50px;
+}
+
+.field {
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+.field::placeholder {
+    text-indent: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+.search {
+    color: green;
+    background-color: inherit;
+    border: 2px solid green;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px 10px;
+    position: absolute; 
+    margin: 4px; 
+}
+.hamburger-menu{
+    display: none;
+}
+.search:hover {
+    background-color: green;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .navlink {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: inline;
+    }
+}
